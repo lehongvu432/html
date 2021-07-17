@@ -129,7 +129,7 @@ $(document).ready(function () {
           }
           display.text(total);
         } else {
-          if (key == '=') {
+          if (key == 'Enter') {
             if (num1 !== null && num2 !== null) {
               total = calculateTotal(num1, operator, num2);
               display.text(total);
